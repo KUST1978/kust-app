@@ -1,15 +1,15 @@
 # KUST 운영 인수인계
 
-- 공식 저장소: https://github.com/KUST-Official/KUST
+- 공식 저장소: https://github.com/kust1978office/KUST
 - 기본 브랜치: `v2`
 - Firebase 프로젝트: `kust-88683`
 - 동아리 Firebase 관리자: `kust1978office@gmail.com`
-- 동아리 GitHub Organization 관리자: `kust1978office`
+- 동아리 GitHub 저장소 소유자: `kust1978office`
 
 ## 실행 및 웹 배포
 
 ```sh
-git clone https://github.com/KUST-Official/KUST.git
+git clone https://github.com/kust1978office/KUST.git
 cd KUST
 flutter pub get
 flutter run -d chrome
