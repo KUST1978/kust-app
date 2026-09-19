@@ -181,24 +181,10 @@ class NoticeScreen extends StatelessWidget {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('푸시 알림 전송'),
-        content: Text("'${notice.title}' 공지를 모든 대원에게 알림으로 보낼까요?"),
+        title: const Text('푸시 알림 발송 중단'),
+        content: const Text('공지 푸시 알림은 현재 사용하지 않습니다. 공지 작성과 조회는 계속 이용할 수 있습니다.'),
         actions: [
-          TextButton(onPressed: () => Navigator.pop(context), child: const Text('취소')),
-          ElevatedButton(
-            onPressed: () async {
-              Navigator.pop(context);
-              ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('🚀 알림 발송을 시작합니다. 로그를 확인하세요.')));
-
-              // 💡 NoticeProvider의 전송 기능을 실행하며, 로그는 EquipmentProvider의 콘솔에 기록하게 함
-              await noticeProv.sendNoticePush(
-                notice,
-                logger: equip.addLog,
-              );
-            },
-            style: ElevatedButton.styleFrom(backgroundColor: Colors.orange, foregroundColor: Colors.white),
-            child: const Text('지금 전송'),
-          ),
+          TextButton(onPressed: () => Navigator.pop(context), child: const Text('확인')),
         ],
       ),
     );

@@ -48,3 +48,10 @@ app.*.map.json
 
 # Firebase CLI deploy cache
 /.firebase/
+
+# Server credentials must never be committed or bundled into the client.
+*firebase-adminsdk*.json
+service-account*.json
+service_account*.json
+*.pem
+*.key
