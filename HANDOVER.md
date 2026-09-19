@@ -30,7 +30,7 @@ npx -y firebase-tools@latest deploy --only hosting --project kust-88683
 
 ## 개인 개발본과 운영 환경
 
-`kingbeanstone/KUST-personal`은 별도의 비공개 코드 저장소입니다. 코드 저장소는 독립적이지만 Firebase 설정은 운영 프로젝트를 가리킵니다. 개인 개발본에서 운영 데이터를 변경하거나 배포하지 마세요. 개인 테스트를 재개할 때는 별도 Firebase 프로젝트로 분리하세요.
+`kingbeanstone/KUST-personal`의 현재 `v2` 브랜치는 별도 Firebase 프로젝트 `kust-personal-kingbeanstone`으로 분리했습니다. 개인 테스트 PWA 주소는 https://kust-personal-kingbeanstone.web.app 입니다. 익명화한 자료의 일회성 복사본이며 운영 데이터와 자동 동기화하지 않습니다. 개인 저장소의 과거 브랜치/태그에는 운영 설정이 남아 있으므로 그대로 실행·배포하지 마세요. 서버는 분리됐지만 개인 테스트 프로젝트는 승인받은 기존 결제 계정을 공유합니다.
 
 ## 아직 남은 운영 확인
 
