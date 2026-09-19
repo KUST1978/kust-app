@@ -1,4 +1,4 @@
-# kust
+# kust - app
 
 A new Flutter project.
 
