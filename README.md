@@ -16,5 +16,6 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 ### Contributors
-- 45기 김건호
+
 - 44기 진형준 ([@kingbeanstone](https://github.com/kingbeanstone))
+- 46기 김건호 ([@secripite](https://github.com/secripite))
